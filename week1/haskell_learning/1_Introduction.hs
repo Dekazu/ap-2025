@@ -19,3 +19,5 @@ f (x:xs) = f ys ++ [x] ++ f zs
 -- (x:xs) is a pattern that matches a non-empty list, where x is the head (first element) and xs is the tail (the rest of the list).
 -- ++ is the list concatenation operator.
 -- The where clause defines two lists, ys and zs, using list comprehensions.
+
+-- It works for numbers, characters, strings, Bools (everything that can be ordered defined by Ord a)
